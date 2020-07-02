@@ -27,7 +27,7 @@ def output_array(array)
 end
  
  def return_string_array(array)
-   array=[]
+   array[]
    counter= 0 
    while array.each do 
      puts array.to_s
