@@ -19,4 +19,23 @@ def loop_message_n_times(message, number)
   end 
   
 end 
-def output_array
+def output_array(array)
+  counter= 0 
+  while array[counter] do 
+    puts array[counter]
+    counter += 1 
+  end
+end
+ 
+ def return_string_array(array)
+   array=[]
+   counter= 0 
+   while array.each do 
+     puts array.to_s
+   end
+   array
+ end 
+     
+  
+  
+end
